@@ -1,6 +1,5 @@
-#!/bin/bash
-#include <stdio>
-/*
+#include <stdio.h>
+/**
  *
  *printing a string using the puts function
  *
