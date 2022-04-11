@@ -13,8 +13,8 @@ int main(void)
 
         n = rand() - RAND_MAX / 2;
         if (n == 0)
-		printf("It is zero":wq
-			);	
+		printf("It is zero");
+				
         else if (n > 0)
 		printf("%d is positive",n);
         else
