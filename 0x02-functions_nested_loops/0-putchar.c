@@ -1,6 +1,7 @@
 #include "main.h"
-/**main- entry block
- *
+/**
+ * main - entry block
+ * @void: no argument
  * Return: 0
  */
 int main(void)
@@ -8,7 +9,7 @@ int main(void)
 	char hggs[] = "_putchar";
 	int c;
 
-	for(c=0; c < 8; c++)
+	for(c = 0; c < 8; c++)
 	{
 		_putchar(hggs[c]);
 	}
