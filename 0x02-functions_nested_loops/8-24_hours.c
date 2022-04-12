@@ -2,6 +2,7 @@
 /**
  * jack_bauer - prints hour between 00:00 to 23:59
  * @void: no argument
+ * Return: has no
  */
 void jack_bauer(void)
 {
