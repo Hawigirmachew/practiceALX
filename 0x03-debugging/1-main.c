@@ -17,9 +17,9 @@ int main(void)
 	 * while ( i < 10)
 	 * {
 	 * putcahr(i);
-	 * }
+	 }
 	 */
-	printf("Infinite loop avoided \\o/\n");
+	printf("Infinite loop avoided! \\o/\n");
 
 	return (0);
 }
