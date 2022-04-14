@@ -30,6 +30,6 @@ int main(void)
 			_putchar(' ');
 		else
 			_putchar('\n');
-		return (0);
 	}
+	return (0);
 }
