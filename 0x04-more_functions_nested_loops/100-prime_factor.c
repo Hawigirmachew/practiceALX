@@ -1,4 +1,3 @@
-#include "main.h"
 #include <stdio.h>
 /**
  * main - entry block
@@ -20,5 +19,5 @@ int main(void)
 		}
 	}
 	printf("%lu\n", max);
-	return 0;
+	return (0);
 }
