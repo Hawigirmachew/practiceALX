@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_line - print the distance between two lines
+ * print_line - print lines
  * @n: takes integer
  * Return: Always 0
  */
