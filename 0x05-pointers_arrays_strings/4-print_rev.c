@@ -5,7 +5,7 @@
  *
  * Returns: Always 0
  */
-void print_rev(char *S)
+void print_rev(char *s)
 {
 	int l, i;
 
