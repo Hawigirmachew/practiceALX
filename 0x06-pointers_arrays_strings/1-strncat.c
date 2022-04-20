@@ -4,7 +4,7 @@
  * @dest: a pointer pointes to character
  * @src: a pointer pointes to char
  * @n:integer value
- * Return: dest
+ * Return: returns char 
  */
 char *_strncat(char *dest, char *src, int n)
 {
@@ -22,8 +22,8 @@ char *_strncat(char *dest, char *src, int n)
 	while (j < n && src[j] != '\0')
 	{
 		dest[i] = src[j];
-		i++;
 		j++;
+		i++;
 	}
 	dest[i] = '\0';
 	return dest;
