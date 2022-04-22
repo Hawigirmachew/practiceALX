@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- *
- *
- *
+ * cap_string - cahnges char to string
+ * @s: pointer points ro array of char
+ * Return: char
  */
 char *cap_string(char *s)
 {
