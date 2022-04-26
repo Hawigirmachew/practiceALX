@@ -1,1 +1,1 @@
-Ore on pointers and arrays
+Pointers to pointers and multideminsional arrays

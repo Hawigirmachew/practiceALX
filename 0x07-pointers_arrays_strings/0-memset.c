@@ -1,19 +1,17 @@
 #include "main.h"
 /**
-* _memset - to change array element
-* @s: pointer points to array of char
+* _memset - set a value to array using char
+* @s: pinter pointers to array of char
 * @b: takes char
-* @size: takes unsigned int
-* Return: char value
+* @n: takes unsigned int
+* Return: return char
 */
-char *_memset(char *s, char b, unsigned int size)
+char *_memset(char *s, char *b, unsigned int n)
 {
-
-if (size > 0){
-
 int i;
 
-for (i = 0; i < size; i++)
+for (i = 0; i < n; i++)
+{
 s[i] = b;
 }
 return (s);
