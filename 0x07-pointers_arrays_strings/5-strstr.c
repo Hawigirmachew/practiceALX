@@ -1,10 +1,9 @@
 #include "main.h"
 /**
-*
-*
-*
-*
-*
+* _strstr - locate and print the pointer to the first occurence of substring
+* @haystack: string to search
+* @needle: substring to be searched
+* Return: pointer to the index of  substring
 */
 char *_strstr(char *haystack, char *needle)
 {
