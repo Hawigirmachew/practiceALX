@@ -6,7 +6,7 @@
 *
 *
 */
-char *_strstr(char *haystack, char *accept)
+char *_strstr(char *haystack, char *needle)
 {
 int i;
 
